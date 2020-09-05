@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#000"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,11 +44,17 @@
         android:text="test5"
         />
     <Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:onClick="test6"
-    android:text="test6"
-    />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="test6"
+        android:text="test6"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="test7"
+        android:text="test7"
+        />
 
 
 
